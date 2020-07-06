@@ -1,2 +1,6 @@
 language = "python3"
-run = ""
+run = "i=input("Enter 1:Matrix Code\n2:Password Generator")
+if(i==1):
+ execfile('Matrix_Code.py')
+if(i==2):
+ execfile('Password_Gen.py')"
